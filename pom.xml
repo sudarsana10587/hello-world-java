@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.rt</groupId>
 	<artifactId>hello-world-java</artifactId>
-	<version>1.0-SNAPSSHOT</vesion>
+	<version>1.0-SNAPSHOT</vesion>
 	<packaging>jar</packaging>
 	<name>hello-world-java</name>
 	<url>https://www.rushitechnologies.com</url>
