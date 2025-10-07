@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.rt</groupId>
 	<artifactId>hello-world-java</artifactId>
-	<version>1.0</version>
+	<version>1.0-SNAPSSHOT</vesion>
 	<packaging>jar</packaging>
 	<name>hello-world-java</name>
 	<url>https://www.rushitechnologies.com</url>
@@ -27,12 +27,23 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+<distributionManagement> 
+  <repository> 
+	  <id>nexus</id>
+	  <url>http://3.6.186.231:8081/repository/hello-world-java/</url> 
+  </repository>   
+  <snapshotRepository> 
+	  <id>nexus</id> 
+	  <url>http://3.6.186.231:8081/repository/hello-world-java-snapshot/</url> 
+  </snapshotRepository> 
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.11</version>
+				<version>0.8.11</version>?
 				<executions>
 					<execution>
 						<goals>
