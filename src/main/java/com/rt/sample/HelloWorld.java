@@ -17,7 +17,7 @@ import java.util.Date;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Welcome to "+getName()+ ". Demo On Maven Build Tool !! Today Date is:  "
+		System.out.println("Hello Welcome  "+getName()+ ". Demo On Maven Build Tool !! Today Date is:  "
 				+ getLocalCurrentDate());
 
 	}
