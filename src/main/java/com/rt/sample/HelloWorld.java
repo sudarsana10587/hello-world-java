@@ -29,7 +29,7 @@ public class HelloWorld {
 
 
 	public static String getName() {
-		String name = "Rushi Technologies Banglore";
+		String name = "HMSRTech Banglore";
 		return name;
 	}
 
