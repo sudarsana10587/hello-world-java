@@ -31,11 +31,11 @@
 <distributionManagement> 
   <repository> 
 	  <id>nexus</id>
-	  <url>http://3.6.186.231:8081/repository/hello-world-java/</url> 
+	  <url>http://34.202.231.178:8081/repository/hello-world-java/</url> 
   </repository>   
   <snapshotRepository> 
 	  <id>nexus</id> 
-	  <url>http://3.6.186.231:8081/repository/hello-world-java-snapshot/</url> 
+	  <url>http://34.202.231.178:8081/repository/hello-world-java-snapshot/</url> 
   </snapshotRepository> 
 </distributionManagement>
 	<build>
