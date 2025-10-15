@@ -17,7 +17,7 @@
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
-		<sonar.host.url>http://13.222.137.168:9000/</sonar.host.url>
+		<sonar.host.url>http://44.222.130.117:9000/</sonar.host.url>
 			</properties>
 	<dependencies>
 		<dependency>
